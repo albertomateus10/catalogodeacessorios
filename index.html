@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Clique no documento e baixe o PDF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: "Inter", Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #1f2937;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 32px;
+    }
+
+    /* BOTÃO IGUAL AO "LINKS ÚTEIS" */
+    .doc {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      padding: 38px 26px;
+      border-radius: 32px;
+
+      background-color: #ffffff;
+      border: 1px solid #e5e7eb;
+
+      font-size: 18px;
+      font-weight: 600;
+      color: #1f2937;
+
+      text-decoration: none;
+      cursor: pointer;
+
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+
+      transition:
+        background-color 0.22s ease,
+        color 0.22s ease,
+        transform 0.22s ease,
+        box-shadow 0.22s ease;
+    }
+
+    .doc:hover {
+      background-color: #4f63d9;
+      /* azul sólido */
+      color: #ffffff;
+      transform: translateY(-3px);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.18);
+      border-color: transparent;
+    }
+
+    .doc:active {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(0, 0, 0, 0.16);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Clique no documento e baixe o PDF</h1>
+
+  <div class="container">
+
+    <!-- CARTA FIAT -->
+    <a class="doc" href="cartafiat.pdf" target="_blank" rel="noopener">
+      Carta FIAT
+    </a>
+
+    <!-- CARTA BANCO -->
+    <a class="doc" href="cartabanco.pdf" target="_blank" rel="noopener">
+      Carta do Banco
+    </a>
+
+    <!-- GAMA / LINHA DE PRODUTOS -->
+    <a class="doc" href="gama.pdf" target="_blank" rel="noopener">
+      Gama de Produtos
+    </a>
+
+    <!-- CARTILHA DE INTEGRAÇÃO -->
+    <a class="doc" href="https://albertomateus10.github.io/pdfsdomes/cartilha.pdf" target="_blank" rel="noopener">
+      Cartilha de Integração
+    </a>
+
+    <!-- TERMO DE TEST DRIVE -->
+    <a class="doc"
+      href="https://github.com/albertomateus10/pdfsdomes/blob/main/Termo_de_Responsabilidade_do_Test_Drive.xlsx"
+      target="_blank" rel="noopener">
+      Termo de Test Drive
+    </a>
+
+    <!-- CATÁLOGOS DE ACESSÓRIOS -->
+    <a class="doc" href="#" target="_blank" rel="noopener">
+      Catálogo Acessórios
+    </a>
+
+    <a class="doc" href="#" target="_blank" rel="noopener">
+      Catálogo Acessórios Argo
+    </a>
+
+    <a class="doc" href="#" target="_blank" rel="noopener">
+      Catálogo Acessórios Fastback
+    </a>
+
+    <a class="doc" href="#" target="_blank" rel="noopener">
+      Catálogo Acessórios Mobi
+    </a>
+
+    <a class="doc" href="#" target="_blank" rel="noopener">
+      Catálogo Acessórios Nova Strada
+    </a>
+
+    <a class="doc" href="#" target="_blank" rel="noopener">
+      Catálogo Acessórios Pulse
+    </a>
+
+    <a class="doc" href="#" target="_blank" rel="noopener">
+      Catálogo Acessórios Toro
+    </a>
+
+  </div>
+
+</body>
+
+</html>
